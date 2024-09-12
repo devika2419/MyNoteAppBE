@@ -27,15 +27,19 @@ Welcome to the MyNoteApp backend repository! This project provides the server-si
      npm i
  3. **Set Up Environment Variables**
 
-     ### Environment Variables
+    ## Set Up Environment Variables
 
-    Create a .env file in the root directory and add the following variables:
+   To configure your environment, you'll need to create a `.env` file in the root directory of the project. This file will store your environment-specific settings. Follow these steps:
 
-     DB_HOST=your_database_host
-     DB_USER=your_database_user
-     DB_PASSWORD=your_database_password
-     DB_NAME=your_database_name
-     PORT=your_preferred_port
+   1. **Create a `.env` file** in the root directory of the project if it does not already exist.
+
+   2. **Add the following variables** to your `.env` file:
+      ```plaintext
+      DB_HOST=your_database_host
+      DB_USER=your_database_user
+      DB_PASSWORD=your_database_password
+      DB_NAME=your_database_name
+      PORT=your_preferred_port
 
 4. **Run the Application**
 
